@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+main{
+    background: #FFA60B;
+    margin: 0px 20px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 200px; 
+}
+
+h2{
+    position: absolute;
+    top: 0;
+}
+
+#word{
+    background: white;
+    width: 90%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+#guess{
+    border: none;
+    width: 90%;
+    height: 30px;
+    background: transparent;
+    border-bottom: 2px solid white;
+    outline: none;
+    color: white;
+    text-align: center;
+}
+
+button{
+    width: 70%;
+    height: 30px;
+    margin-top: 20px;
+}
+
+#link{
+    position: absolute;
+    display: none;
+}
+
+#result{
+    margin: 0;
+}
